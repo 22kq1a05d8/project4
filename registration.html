@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+    body{
+        background-size: cover;
+    }
+    /* smart phone    */
+
+    @media screen and (min-width:220px ) {
+        body{
+            background-color: violet;
+        }
+    }   
+    /* Tablet,ipad  */
+
+    @media screen and (min-width:558px) and (max-width:125px){
+        body{
+            background-color: rgb(195, 45, 45);
+        }
+    }
+    /* Desktops and Laptops asfsdf   */
+
+    @media screen and (min-width:1224px) {
+        body{
+            background-color: rgb(264, 155, 67);
+        }
+    }
+
+    /* Large Screens--------- */
+    @media screen and (min-width:1967px) {
+        body{
+            background-color: rgb(100, 355, 50);
+        }
+    }
+    
+</style>
+</head>
+<body>
+<h3>Registration Form</h3>
+Firstname:<input type="text"name="uname"><br>
+Lastname:<input type="text"name="uname"><br>
+Username:<input type="text"name="uname"><br>
+Password:<input type="Password"name="pass"><br>
+Phone number:<input type="number"name="uname"><br>
+Gender:<input type="radio"name="radio"value="female">female<br>
+<input type="radio"name="radio"value="Male">male<br>
+BTech Degree:<select>
+<option>cse</option>
+<option>eee</option>
+<option>civil</option>
+<option>ece</option>
+</select><br>
+Languages known:<br>
+<input type="checkbox"name="uname">c language<br>
+<input type="checkbox"name="uname">python<br>
+<input type="checkbox"name="uname">java<br>
+<input type="checkbox"name="uname">dbms<br>
+<form action="loginpage.html">
+<input type="reset"value="reset">
+<input type="submit">
+</body>
+</html>
